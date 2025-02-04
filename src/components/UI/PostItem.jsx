@@ -5,7 +5,6 @@ const PostItem = ({ posts, remove }) => {
   return (
     <>
       {posts.map((post, index) => {
-        console.log(post)
         return (
           <article key={post.id} style={
             {
